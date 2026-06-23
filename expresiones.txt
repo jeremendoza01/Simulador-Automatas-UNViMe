@@ -1,0 +1,11 @@
+Ejemplos expresiones regulares válidas                
+a                                  
+b                                  
+c                                   
+a*                                   
+(a)*                               
+a.b                               
+a|b                                
+((a.c|b)*.c)|(a*.(b*|c*))              
+                                      
+                                                             
