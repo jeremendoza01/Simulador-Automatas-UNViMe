@@ -60,7 +60,7 @@ Nodo* P();
 const char *cursor;
 char cadena_entrada[256];
 
-// Función auxiliar para imprimir el DOT y validar el árbol
+// Funcion auxiliar para imprimir el DOT y validar el arbol
 void imprimirASTDot_recursivo(Nodo* raiz) {
     if (raiz == NULL) return;
     
@@ -77,7 +77,7 @@ void imprimirASTDot_recursivo(Nodo* raiz) {
 }
 
 
-// LÓGICA DEL PARSER
+// LOGICA DEL PARSER
 // Regla gramatical: E -> T E'
 Nodo* E(){
     if ((*cursor >= 'a' && *cursor <= 'z') || (*cursor >= '0' && *cursor <= '9') || *cursor == 'E' || *cursor == '(') {

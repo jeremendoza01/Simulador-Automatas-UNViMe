@@ -534,7 +534,7 @@ int main()
             scanf("%99s", input);
             getchar(); // limpiar buffer
 
-            // resetear todos los contadores por si ingresa una segunda vez
+            // resetear todos los contadores
             contador_nodos_ast = 0;
             contador_estados_afn = 0;
             contador_estados_afd = 0;
