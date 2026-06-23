@@ -525,14 +525,14 @@ int main()
                 ; // Limpiar el buffer si mete cualquier cosa
             continue;
         }
-        getchar(); // Limpiar el salto de línea del buffer
+        getchar(); // limpiar el salto de linea del buffer
 
         switch (opcion)
         {
         case 1:
             printf("\nIngrese la expresion regular: ");
             scanf("%99s", input);
-            getchar(); // Limpiar buffer
+            getchar(); // limpiar buffer
 
             // resetear todos los contadores por si ingresa una segunda vez
             contador_nodos_ast = 0;
