@@ -1,7 +1,7 @@
 <div align="center">
   <h1>⚙️ Simulador de Autómatas Finitos y Expresiones Regulares</h1>
   <p>
-    <strong>Un motor de evaluación de expresiones regulares construido desde cero en C, implementando parsing sintáctico y algoritmos formales de teoría de la computación.</strong>
+    <strong>Un motor de evaluación de expresiones regulares construido en C, implementando parsing sintáctico y algoritmos formales de teoría de la computación.</strong>
   </p>
 
   <img src="https://img.shields.io/badge/Language-C-blue.svg" alt="C" />
@@ -45,11 +45,6 @@ El sistema está diseñado bajo un modelo de procesamiento en cascada (Pipeline)
 ## 🚀 Instalación y Despliegue
 
 El proyecto está escrito en **C estándar** y no posee dependencias externas complejas, asegurando una alta portabilidad.
-
-**1. Clonar el repositorio:**
-```bash
-git clone [https://github.com/jeremendoza01/Simulador-Automatas-UNViMe.git](https://github.com/jeremendoza01/Simulador-Automatas-UNViMe.git)
-cd Simulador-Automatas-UNViMe
 
 📊 Integración con Graphviz
 Las opciones 2, 3 y 4 del menú generan el código nativo en formato .dot. Este código puede ser copiado directamente en herramientas como WebGraphviz o Edotor para visualizar los grafos generados por los algoritmos.
